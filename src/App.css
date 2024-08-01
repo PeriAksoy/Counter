@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(45, 89, 114);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+p{
+    color: rgb(237, 243, 245);
+    font-weight: 700;
+    font-size: 50px;
+  
+}
+input{
+    background-color: rgb(200, 204, 228);
+    border-radius: 10px;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 5px;
+    height: 45px;
+    width: 45px;
+}
+.count{
+    background-color: rgb(160, 194, 216);
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    height: 50px;
+    width: 90px;
+}
+.App{
+    background-color: rgb(109, 51, 94);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 100px;
+    display: flex;
+    height: 700px;
+    width: 500px;
+}
+button{
+    background-color: rgb(95, 95, 156);
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+}
+button:hover{
+    opacity: 0.75;
+
+}
+.container{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap:10px;
+}
+.buttons{
+    justify-content: space-between;
+    display: flex;
+    width: 180px;
+}
+.content{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.content input{
+    position: relative;
+    bottom: 55px;
+}
